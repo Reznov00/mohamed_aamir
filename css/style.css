@@ -1,0 +1,14 @@
+nav{
+    position: fixed;
+}
+
+@media (max-width: 768px) {
+    p{
+        color: red;
+    }
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-around;
+  }
